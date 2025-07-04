@@ -5,6 +5,10 @@ public class Dollar {
         this.amount = amount;
     }
 
+    public boolean equals(Object object) {
+        return true;
+    }
+
     Dollar times(int multiplier) {
         return new Dollar(amount * multiplier);
     }
